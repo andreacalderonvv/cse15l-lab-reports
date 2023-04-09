@@ -4,7 +4,7 @@
 ---
 For me, I already had VS code installed because of CSE 11, but I will still help guide in installing it.
 
-**First Step:** You will have to go to [this website] and choose which system you are downloading VS code on and hit download.
+**First Step:** You will have to go to [this website](https://code.visualstudio.com/download) and choose which system you are downloading VS code on and hit download.
 
 pic here
 
@@ -16,7 +16,7 @@ pic here
 
 pic here
 
-**Fourth Step:**
+**Fourth Step:** Next just search up Visual Studio code in your computer and open it!
 
 ## How To Get Started With Remote Acess:
 ---
