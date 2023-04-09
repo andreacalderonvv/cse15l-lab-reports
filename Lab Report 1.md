@@ -1,6 +1,6 @@
 # *Lab Report 1*
 
-## How to Install VS Code
+## How to Install VS Code:
 ---
 For me, I already had VS code installed because of CSE 11, but I will still help guide in installing it.
 
@@ -33,3 +33,5 @@ insert pic
 
 **Third Step:** Follow the directions the system tells you. After you reset your password you might have to wait a bit for it to activate.
 pic here
+
+## Trying Some Commands
