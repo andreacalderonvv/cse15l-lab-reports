@@ -34,4 +34,15 @@ insert pic
 **Third Step:** Follow the directions the system tells you. After you reset your password you might have to wait a bit for it to activate.
 pic here
 
-## Trying Some Commands
+## Trying Some Commands:
+---
+
+**First Step:** Load up VS code and open a new terminal by looking above and clicking terminal and then new terminal.
+
+pic here
+
+**Second Step:** Paste ssh cs15lsp23zz@ieng6.ucsd.edu but replace the zz with your own letters and after type in the password that you just made. You should see this message.
+
+pic here
+
+**Third Step:** 
