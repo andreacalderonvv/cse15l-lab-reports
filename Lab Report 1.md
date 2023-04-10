@@ -6,7 +6,7 @@ For me, I already had VS code installed because of CSE 11, but I will still help
 
 **First Step:** You will have to go to [this website](https://code.visualstudio.com/download) and choose which system you are downloading VS code on and hit download.
 
-pic here
+![Image](fourthss)
 
 **Second Step:** Next, you will hit show in folder and double click. 
 
