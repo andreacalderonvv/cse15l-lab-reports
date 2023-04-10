@@ -27,11 +27,10 @@ In order to get started, you will have to go to this [Link](https://sdacs.ucsd.e
 ![Image](firstss)
 
 **Second Step:**
-After that, you will click the button that begins with cs15lsp23zz, the zz will be your own combonation of two letters. After that you will click the reset password button. You will then need to copy your cs15lsp23zz username so you can input it else where and press again reset password.
-
+After that, you will click the button that begins with cs15lsp23zz, the zz will be your own combonation of two letters. After that you will click the reset password button. 
 ![Image](secondss)
 
-**Third Step:** Follow the directions the system tells you. After you reset your password you might have to wait a bit for it to activate.
+**Third Step:** You will then need to copy your cs15lsp23zz username so you can input it else where and press again reset password. Follow the directions the system tells you. After you reset your password you might have to wait a bit for it to activate.
 
 ![Image](thirdss)
 
