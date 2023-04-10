@@ -44,7 +44,7 @@ After that, you will click the button that begins with cs15lsp23zz, the zz will 
 
 **Second Step:** Paste `ssh cs15lsp23zz@ieng6.ucsd.edu` but replace the zz with your own letters, type yes, and after type in the password that you just made. You should see this message.
 
-pic here
+![Image](sixthss)
 
 **Third Step:** You can try inputting the following commands into the terminal and seeing that you get:
 
@@ -64,4 +64,4 @@ pic here
 
 This is an example of mine.
 
-pic here.
+![Image](seventhss)
