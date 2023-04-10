@@ -6,7 +6,7 @@ For me, I already had VS code installed because of CSE 11, but I will still help
 
 **First Step:** You will have to go to [this website](https://code.visualstudio.com/download) and choose which system you are downloading VS code on and hit download.
 
-![Image](firstss)
+pic here
 
 **Second Step:** Next, you will hit show in folder and double click. 
 
@@ -24,22 +24,23 @@ pic here
 **First Step:**
 In order to get started, you will have to go to this [Link](https://sdacs.ucsd.edu/~icc/index.php) and type in your username and password.
 
-pic here
+![Image](firstss)
 
 **Second Step:**
 After that, you will click the button that begins with cs15lsp23zz, the zz will be your own combonation of two letters. After that you will click the reset password button. You will then need to copy your cs15lsp23zz username so you can input it else where and press again reset password.
 
-insert pic
+![Image](secondss)
 
 **Third Step:** Follow the directions the system tells you. After you reset your password you might have to wait a bit for it to activate.
-pic here
+
+![Image](thirdss)
 
 ## Trying Some Commands:
 ---
 
 **First Step:** Load up VS code and open a new terminal by looking above and clicking terminal and then new terminal.
 
-pic here
+![Image](fifthss)
 
 **Second Step:** Paste ssh cs15lsp23zz@ieng6.ucsd.edu but replace the zz with your own letters, type yes, and after type in the password that you just made. You should see this message.
 
