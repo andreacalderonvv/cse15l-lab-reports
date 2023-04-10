@@ -42,7 +42,7 @@ After that, you will click the button that begins with cs15lsp23zz, the zz will 
 
 ![Image](fifthss)
 
-**Second Step:** Paste ssh cs15lsp23zz@ieng6.ucsd.edu but replace the zz with your own letters, type yes, and after type in the password that you just made. You should see this message.
+**Second Step:** Paste `ssh cs15lsp23zz@ieng6.ucsd.edu` but replace the zz with your own letters, type yes, and after type in the password that you just made. You should see this message.
 
 pic here
 
