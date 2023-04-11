@@ -4,17 +4,17 @@
 ---
 For me, I already had VS code installed because of CSE 11, but I will still help guide in installing it.
 
-**First Step:** You will have to go to [this website](https://code.visualstudio.com/download) and choose which system you are downloading VS code on and hit download.
+**First Step:** You will have to go to [this website](https://code.visualstudio.com/download) and choose which system you are downloading VS code on. Then hit the  download.
 
 ![Image](fourthss)
 
-**Second Step:** Next, you will hit show in folder and double click. 
+**Second Step:** Next, you will hit show in folder and double click. Something should come up. 
 
 ![Image](eighthss)
 
 **Third Step:** Accept the agreement. Also click through all the settings.
 
-**Fourth Step:** Next just search up Visual Studio code in your computer and open it!
+**Fourth Step:** Next just search up Visual Studio code in your computer and open it! This should show.
 ![Image](ninethss)
 
 ## How To Get Started With Remote Acess:
@@ -36,7 +36,7 @@ After that, you will click the button that begins with cs15lsp23zz, the zz will 
 ## Trying Some Commands:
 ---
 
-**First Step:** Load up VS code and open a new terminal by looking above and clicking terminal and then new terminal.
+**First Step:** Load up VS code. Open a new terminal by looking above and clicking terminal and then new terminal. 
 
 ![Image](fifthss)
 
@@ -44,7 +44,7 @@ After that, you will click the button that begins with cs15lsp23zz, the zz will 
 
 ![Image](sixthss)
 
-**Third Step:** You can try inputting the following commands into the terminal and seeing that you get:
+**Third Step:** Using the terminal, You can try inputting the following commands into the terminal and seeing that you get. They all do different things:
 
 `cd ~`
 
