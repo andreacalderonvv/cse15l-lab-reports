@@ -10,13 +10,12 @@ For me, I already had VS code installed because of CSE 11, but I will still help
 
 **Second Step:** Next, you will hit show in folder and double click. 
 
-pic here
+![Image](eighthss)
 
 **Third Step:** Accept the agreement. Also click through all the settings.
 
-pic here
-
 **Fourth Step:** Next just search up Visual Studio code in your computer and open it!
+![Image](ninethss)
 
 ## How To Get Started With Remote Acess:
 ---
