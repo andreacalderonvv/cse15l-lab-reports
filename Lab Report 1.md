@@ -33,7 +33,7 @@ After that, you will click the button that begins with cs15lsp23zz, the zz will 
 
 ![Image](thirdss)
 
-Remember to follow the directions. When it tells you to input a new password, input one and this will be the one you use in the terminal when you're asked for one. After, the password is confirmed you will,again, have to wait for it to activate.
+Remember to follow the directions. When it tells you to input a new password, input one and this will be the one you use in the terminal when you're asked for one. After, the password is confirmed you will, again, have to wait for it to activate.
 
 
 ## Trying Some Commands:
