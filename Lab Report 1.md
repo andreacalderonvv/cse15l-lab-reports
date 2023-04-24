@@ -33,6 +33,9 @@ After that, you will click the button that begins with cs15lsp23zz, the zz will 
 
 ![Image](thirdss)
 
+Remember to follow the directions. When it tells you to input a new password, input one and this will be the one you use in the terminal when you're asked for one. After, the password is confirmed you will,again, have to wait for it to activate.
+
+
 ## Trying Some Commands:
 ---
 
@@ -46,15 +49,11 @@ After that, you will click the button that begins with cs15lsp23zz, the zz will 
 
 **Third Step:** Using the terminal, You can try inputting the following commands into the terminal and seeing that you get. They all do different things:
 
-`cd ~`
-
 `cd`
 
-`ls -lat`
+`ls`
 
-`ls -a`
-
-`ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username`
+`ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc`, where the abc is one of the other group members’ username
 
 `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
 
@@ -63,3 +62,5 @@ After that, you will click the button that begins with cs15lsp23zz, the zz will 
 This is an example of mine.
 
 ![Image](seventhss)
+
+In this picture cd is meant for changing directories, it is usually followed by a file name but in the screenshot there is nothing.
