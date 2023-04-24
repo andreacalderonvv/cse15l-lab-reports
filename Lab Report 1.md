@@ -47,7 +47,8 @@ Remember to follow the directions. When it tells you to input a new password, in
 
 ![Image](sixthss)
 
-**Third Step:** Using the terminal, You can try inputting the following commands into the terminal and seeing that you get. They all do different things:
+**Third Step:** Using the terminal, You can try inputting the following commands into the terminal and seeing that you get. They all do different things.
+Below the commands will me an example of them in use and what they do:
 
 `cd`
 
@@ -59,6 +60,7 @@ Remember to follow the directions. When it tells you to input a new password, in
 
 This is an example of mine.
 
-![Image](seventhss)
+![Image](allCommands)
 
-In this picture cd is meant for changing directories, it is usually followed by a file name but in the screenshot there is nothing.
+In this screenshot, cat is reading the contents of the hello.txt file. ls shows the contents of the directory. In this picture cd is meant for changing 
+directories, it is usually followed by a file name but in the screenshot there is nothing. cp copies the contents to another place that is specified. In the screenshot, no place is specified.
