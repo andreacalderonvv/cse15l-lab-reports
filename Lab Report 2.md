@@ -46,19 +46,29 @@ YASSSSS"
 
 Part 2:
 ---
-```
-@Test 
-	public void testReverseInPlace2() {
-    int[] input1 = {1,2,3,4};
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{4,3,2,1}, input1);
-	}
+In this part, we will be looking at some bugs from Lab 3. The bug I chose is from ArrayExamples.java in the method `reversed`.
+
+This is failure input.
 
 ```
+@Test
+  public void testReversed3() {
+    int[] input1 = {3};
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  }
+```
 
-pic here
+This is non-failure producing input.
 
-failure inducing input
+```
+@Test
+  public void testReversed2() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  }
+```
+
+
 
 Part 3:
 ---
