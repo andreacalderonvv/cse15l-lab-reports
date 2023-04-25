@@ -74,7 +74,7 @@ In this part, we will be looking at some bugs from Lab 3. The bug I chose is fro
 
 **Symptom of non-failure input.**
 
-![Image](nonfaiLure)
+![Image](nonfailure)
 
 **Code Before**
 
