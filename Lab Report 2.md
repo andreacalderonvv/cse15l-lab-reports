@@ -14,16 +14,34 @@ Screenshot 1:
 In this screenshot, first the main method was called in order to get a port number. After handleRequest is called. If /add-message is used in the URL, then
 the message in the query gets appended and is shown on the site. In the main method, the only relevant agrument is `String [] args` which ends up being the 
 which port number is used. For `handleRequest`a `URI url` argument is taken in. From that arugment parts of it are taken and analzyed. For example the path and
-then the query, in order to display the prper message on the server. In this screenshot, the values of `message`, a field meant to keep the strings on the server, are "test." For the main method, args only contains the port number 4000.
+then the query, in order to display the proper message on the server. In this screenshot, the values of `message`, a field meant to keep the strings on the server, are "test." `message` gets updated everytime /add-message is used. For the main method, args only contains the port number 4000.
 
 
 Screenshot 2:
 
 ![Image](PART1p3)
 
-In this screenshot, 
+In this screenshot, the main method is again called for the port number. The port number is taken in from the agrument `String [] args`.`handleRequest` is called too. It takes in the argument `URI url`. When /add-message is used in the URL a message gets appended. In this picture it was used three times for "hi", "hello", and "YASSSSS." In this program, the field `message` gets updated each time /add-message is used. `message` went from 
+
+"hi"
 
 
+to then;
+
+
+"hi
+
+hello"
+
+
+and finally
+
+
+"hi
+
+hello
+
+YASSSSS"
 
 
 Part 2:
