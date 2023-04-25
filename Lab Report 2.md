@@ -79,11 +79,13 @@ In this part, we will be looking at some bugs from Lab 3. The bug I chose is fro
 **Code Before**
 
 ```
-static void reverseInPlace(int[] arr) {
-      for(int i = 0; i < arr.length; i += 1) {
-        arr[i] = arr[arr.length - i - 1];
-      }
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
     }
+    return arr;
+  }
 ```
 
 **Code After**
@@ -96,9 +98,11 @@ static int[] reversed(int[] arr) {
     return newArray;
   }
 ```
- ADDRESS THE ISSUE
+ What I did to fix this issue was that I noticed that `arr[i] = newArray[arr.length - i - 1];` was assigning the new empty array to the old array in reverse.
+ Since there was nothing in the new Array, it was simply assigning 0's to the old array. What I did was change the line to 
+ `newArray[i] = arr[arr.length - i - 1];`. This line now assigns the old values of array `arr` to `newArray` in reverse order. This fixes the issue of just 
+ assigning zeros to the old array. I also changed the return statement to return `newArray` instead of `arr`.
 
 Part 3:
 ---
-In week 2, I learned a lot about web servers. For example, before I knew nothing about how the code for web servers would look like.
-After this lab,
+In lab 2, I learned a lot about web servers. For example, before I knew nothing about how the code for web servers would look like. It was fun to see how it handled paths and queries. After this lab, I also learned about the different parts of a URL. For example, what a query does and how it can take in information. It was really interesting to see how everything worked.
