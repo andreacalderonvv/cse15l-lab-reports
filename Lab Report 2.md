@@ -48,7 +48,7 @@ Part 2:
 ---
 In this part, we will be looking at some bugs from Lab 3. The bug I chose is from ArrayExamples.java in the method `reversed`.
 
-This is failure input.
+**This is failure input.**
 
 ```
 @Test
@@ -58,7 +58,7 @@ This is failure input.
   }
 ```
 
-This is non-failure producing input.
+**This is non-failure producing input.**
 
 ```
 @Test
@@ -68,7 +68,35 @@ This is non-failure producing input.
   }
 ```
 
+**Symptom of failure input.**
 
+![Image](failure)
+
+**Symptom of non-failure input.**
+
+![Image](nonfaiure)
+
+**Code Before**
+
+```
+static void reverseInPlace(int[] arr) {
+      for(int i = 0; i < arr.length; i += 1) {
+        arr[i] = arr[arr.length - i - 1];
+      }
+    }
+```
+
+**Code After**
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+```
+ ADDRESS THE ISSUE
 
 Part 3:
 ---
