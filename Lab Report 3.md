@@ -6,6 +6,7 @@ I will be looking into the `grep` command and what kind of options are able to b
 
 ## `grep -v`
 ---
+
 My first example I used `grep -v "ABA" */*/*/*.txt` to search through the directories.
 
 
@@ -28,7 +29,7 @@ Here, what it is doing is outputting the lines that **DON'T** match with the inp
 
 In this second example I used `grep -v "i" */*/*/*.txt` to search.
 
-this was the output:
+This was the output:
 
 ```
 technical/government/Gen_Account_Office/og96026.txt:at the agency.
@@ -43,4 +44,28 @@ technical/government/Gen_Account_Office/og96026.txt:under
 technical/government/Gen_Account_Office/og96026.txt:Page 5 GAO/OGC-96-26
 ```
 
-Again, this command outputs lines that don't match with the inputted string "i". This is useful if someone is curious how often the letter i is not used 
+Again, this command outputs lines that don't match with the inputted string "i". This is useful if someone is curious how often the letter i is not used in the lines.
+
+## `grep -n`
+---
+
+The first example I used was `grep -n "i" */*/*/*.txt`
+
+This was the output:
+
+```
+technical/government/Alcohol_Problems/DraftRecom-PDF.txt:408:settings?
+technical/government/Alcohol_Problems/DraftRecom-PDF.txt:409:Soderstrom suggested that the term "practitioner" in this
+technical/government/Alcohol_Problems/DraftRecom-PDF.txt:410:recommendation needs to be clarified because it can mean anyone who
+technical/government/Alcohol_Problems/DraftRecom-PDF.txt:411:takes care of a patient, including RNs, MDs, therapists, and
+technical/government/Alcohol_Problems/DraftRecom-PDF.txt:413:Bernstein noted that alcohol-dependent patients clearly need
+technical/government/Alcohol_Problems/DraftRecom-PDF.txt:414:specialized treatment and that some patients with hazardous
+technical/government/Alcohol_Problems/DraftRecom-PDF.txt:415:drinking need out-patient counseling. He said if access to that
+technical/government/Alcohol_Problems/DraftRecom-PDF.txt:416:counseling is not available, screening and interventions are less
+technical/government/Alcohol_Problems/DraftRecom-PDF.txt:417:likely to happen in the ED. He called for research on barriers
+technical/government/Alcohol_Problems/DraftRecom-PDF.txt:418:emergency physicians face in getting further care for ED patients
+```
+
+This command shows the line number of the line that includes the inputted string. This will be helpful if someone is trying to locate where a certain mention of the inputted string is.
+
+The second example I used was '
