@@ -116,4 +116,48 @@ technical/government/Gen_Account_Office/og96038.txt:one-time costs and $78 milli
 technical/government/Gen_Account_Office/og96038.txt:FDA recognizes that it could not quantify every regulatory cost
 ```
 
+In this example, it searches for the string "fda" regardless of captial or lowercase letters. It is helpful to just search for the word regardless of capitials.
 
+## `grep -c`
+---
+
+In the first example I used `grep -c "food" */*/*/*.txt`.
+
+This is the output:
+
+```
+technical/government/About_LSC/CONFIG_STANDARDS.txt:0
+technical/government/About_LSC/Comments_on_semiannual.txt:0
+technical/government/About_LSC/LegalServCorp_v_VelazquezDissent.txt:0
+technical/government/About_LSC/LegalServCorp_v_VelazquezOpinion.txt:0
+technical/government/About_LSC/LegalServCorp_v_VelazquezSyllabus.txt:0
+technical/government/About_LSC/ODonnell_et_al_v_LSCdecision.txt:0
+technical/government/About_LSC/ONTARIO_LEGAL_AID_SERIES.txt:0
+technical/government/About_LSC/Progress_report.txt:0
+technical/government/About_LSC/Protocol_Regarding_Access.txt:0
+technical/government/About_LSC/Special_report_to_congress.txt:0
+```
+
+Here, what the command does is output how many lines of the inputted string there is in the file. This is useful when you don't want to count the lines yourself or don't want all the lines printed.
+
+In the second example, I used the command `grep -c "by" */*/*/*.txt`.
+
+This is the output:
+
+```
+technical/government/About_LSC/CONFIG_STANDARDS.txt:3
+technical/government/About_LSC/Comments_on_semiannual.txt:18
+technical/government/About_LSC/LegalServCorp_v_VelazquezDissent.txt:28
+technical/government/About_LSC/LegalServCorp_v_VelazquezOpinion.txt:32
+technical/government/About_LSC/LegalServCorp_v_VelazquezSyllabus.txt:9
+technical/government/About_LSC/ODonnell_et_al_v_LSCdecision.txt:11
+technical/government/About_LSC/ONTARIO_LEGAL_AID_SERIES.txt:22
+technical/government/About_LSC/Progress_report.txt:40
+technical/government/About_LSC/Protocol_Regarding_Access.txt:22
+```
+
+In this example, it also prints out how many lines in the file match the given string. This is useful for when you don't want all the matching lines taking over your terminal.
+
+## Sources:
+---
+All of these commands were found through the AI [ChatGPT](https://chat.openai.com/).
