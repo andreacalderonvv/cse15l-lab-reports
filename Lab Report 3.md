@@ -2,7 +2,7 @@
 
 ## Researching Commands
 
-I will be looking into the `grep` command and what kind of options are able to be used.
+I will be looking into the `grep` command and what kind of options are able to be used with it.
 
 ## `grep -v`
 ---
