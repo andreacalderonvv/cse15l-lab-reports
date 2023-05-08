@@ -138,7 +138,7 @@ technical/government/About_LSC/Protocol_Regarding_Access.txt:0
 technical/government/About_LSC/Special_report_to_congress.txt:0
 ```
 
-Here, what the command does is output how many lines of the inputted string there is in the file. This is useful when you don't want to count the lines yourself or don't want all the lines printed.
+Here, what the command does is output how many lines of the given string there is in the file. This is useful when you don't want to count the lines yourself or don't want all the lines printed.
 
 In the second example, I used the command `grep -c "by" */*/*/*.txt`.
 
