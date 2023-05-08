@@ -68,4 +68,33 @@ technical/government/Alcohol_Problems/DraftRecom-PDF.txt:418:emergency physician
 
 This command shows the line number of the line that includes the inputted string. This will be helpful if someone is trying to locate where a certain mention of the inputted string is.
 
-The second example I used was '
+The second example I used was `grep -n "Gutman" */*/*/*.txt` 
+
+This was the output:
+
+```
+technical/government/Alcohol_Problems/Session2-PDF.txt:632:67. Williams J, Chinnis A, Gutman D. Health promotion practices
+```
+
+Again, this command shows the line number where the string appears. In this case it was 632. This is helpful when locating a mention of the string you inputted.
+
+## `grep -i`
+---
+
+In the first example, I used the command `grep -i "HOWEVER" */*/*/*.txt `.
+
+This is the output:
+
+```
+technical/government/About_LSC/CONFIG_STANDARDS.txt:or participation in each state. However, LSC continues to encourage
+technical/government/About_LSC/LegalServCorp_v_VelazquezDissent.txt:experience, however, that these restrictions did not exhaust the
+technical/government/About_LSC/LegalServCorp_v_VelazquezDissent.txt:on litigation, however, is unique, and it contains a proviso
+technical/government/About_LSC/LegalServCorp_v_VelazquezDissent.txt:professional responsibility'"). The lawyers may, however, and
+technical/government/About_LSC/LegalServCorp_v_VelazquezDissent.txt:"Petitioners contend, however, that most Title X cli
+technical/government/About_LSC/LegalServCorp_v_VelazquezOpinion.txt:existing law. §1639.4. Under LSC's interpretation, however,
+technical/government/About_LSC/LegalServCorp_v_VelazquezOpinion.txt:later cases, however, we have explained Rust on this understanding.
+technical/government/About_LSC/LegalServCorp_v_VelazquezOpinion.txt:applies to subsidies for private speech in every instance, however.
+technical/government/About_LSC/LegalServCorp_v_VelazquezOpinion.txt:government's message in the litigation. The LSC lawyer, however,
+technical/government/About_LSC/LegalServCorp_v_VelazquezOpinion.txt:bar. Under §504(a)(16), however, cases would be presented by LSC
+```
+What this command does is find all the instances of the inputted string regardless of capital letters or lowercase. This is helpful when you are just looking for a word and not the word specifically when it is in capitals or all lowercase.
