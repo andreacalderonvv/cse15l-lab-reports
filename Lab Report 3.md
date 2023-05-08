@@ -98,3 +98,22 @@ technical/government/About_LSC/LegalServCorp_v_VelazquezOpinion.txt:government's
 technical/government/About_LSC/LegalServCorp_v_VelazquezOpinion.txt:bar. Under §504(a)(16), however, cases would be presented by LSC
 ```
 What this command does is find all the instances of the inputted string regardless of capital letters or lowercase. This is helpful when you are just looking for a word and not the word specifically when it is in capitals or all lowercase.
+
+In this second example I used the command `grep -i "fda" */*/*/*.txt`. 
+
+This is the output:
+
+```
+technical/government/Env_Prot_Agen/atx1-6.txt:practices related to toxicity testing, see: FDA, 1978; USEPA, 1975;
+technical/government/Env_Prot_Agen/ctf1-6.txt:see FDA, (1978); USEPA, (1979d), USEPA (1980b), USEPA (1980c), and
+technical/government/Env_Prot_Agen/ctm4-10.txt:see FDA (1978); USEPA (1979d); USEPA (1980b); USEPA (1980c); USEPA
+technical/government/Gen_Account_Office/ai00134.txt:than fitting new technology to outofdate processes, Owens Corning
+technical/government/Gen_Account_Office/og96038.txt:by the Food and Drug Administration (FDA) and published in the
+technical/government/Gen_Account_Office/og96038.txt:has been revised based on comments the FDA received and now also
+technical/government/Gen_Account_Office/og96038.txt:tobacco products to individuals under the age of 18. FDA considers
+technical/government/Gen_Account_Office/og96038.txt:FDA estimates the overall compliance costs of the rule to be
+technical/government/Gen_Account_Office/og96038.txt:one-time costs and $78 million in annual costs), FDA ($3 to $5
+technical/government/Gen_Account_Office/og96038.txt:FDA recognizes that it could not quantify every regulatory cost
+```
+
+
