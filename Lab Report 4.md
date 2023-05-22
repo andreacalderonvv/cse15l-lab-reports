@@ -46,7 +46,7 @@ This set of commands goes into the terminal history of when I first ran the test
 
 ## Commit and Push the Resulting Change to Your Github Account:
 
-pic here
+![Step 6](step6)
 
 `git add ListExamples.java`
 
