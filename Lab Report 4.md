@@ -30,7 +30,7 @@ These commands change into the lab7 directory and run the test.sh tests.
 
 ![Step 4](step4)
 
-vim <space> ListExamples.java <enter>
+`vim <space> ListExamples.java <enter>`
 
 `x i 2 <esc> :wq <enter>`
 
@@ -48,7 +48,7 @@ This set of commands goes into the terminal history of when I first ran the test
 
 ![Step 6](step6)
 
-`git<space>add<space>ListExamples.java`
+`git <space> add <space> ListExamples.java`
 
 `git <space> commit <space> -m <space> "success"`
 
