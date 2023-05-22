@@ -161,3 +161,45 @@ In this example, it also prints out how many lines in the file match the given s
 ## Sources:
 ---
 All of these commands were found through the AI [ChatGPT](https://chat.openai.com/).
+
+Input used: can you give me some command line argument options for grep?
+
+Output: 
+
+```
+Certainly! grep is a powerful command-line tool used for searching text patterns within files. Here are some commonly used command-line argument options for grep:
+
+Basic Usage: grep [pattern] [file]
+
+Searches for the specified [pattern] within the [file].
+Case Insensitivity: grep -i [pattern] [file]
+
+Ignores case when searching for the [pattern].
+Recursive Search: grep -r [pattern] [directory]
+
+Recursively searches for the [pattern] within the specified [directory] and its subdirectories.
+Invert Match: grep -v [pattern] [file]
+
+Displays lines that do not match the [pattern].
+Match Whole Word: grep -w [pattern] [file]
+
+Matches the [pattern] as a whole word, rather than as part of a word.
+Print Line Numbers: grep -n [pattern] [file]
+
+Displays the line numbers along with the matched lines.
+Count Matches: grep -c [pattern] [file]
+
+Prints only the count of matching lines, without displaying the actual lines.
+Multiple Patterns: grep -e [pattern1] -e [pattern2] [file]
+
+Searches for multiple patterns within the [file].
+Include/Exclude Files: grep --include=*.[ext] [pattern] [directory]
+
+Searches only in files with a specific extension ([ext]) within the [directory].
+Recursive Exclude: grep --exclude-dir=[dir] [pattern] [directory]
+
+Excludes a specific directory ([dir]) from recursive searches.
+These are just a few examples of the many options available with grep. You can explore more by referring to the grep manual page (man grep) or by using the grep --help command to see a brief summary of available options.
+```
+
+What I changed was that I only chose 4 commands and I replaced everything with the files I will be using.
