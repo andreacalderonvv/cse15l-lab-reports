@@ -42,7 +42,6 @@ pic here
 
 ```
 <up> <up> <up> <enter>
-
 ```
 
 This set of commands goes into the terminal history of when I first ran the test.
