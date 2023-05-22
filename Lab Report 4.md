@@ -54,4 +54,6 @@ pic here
 
 `git push`
 
+The first command adds ListExamples into a list of files that will be committed. Then the next command actual commits the changes. The last command then pushes the changes onto the git hub account.
+
 
