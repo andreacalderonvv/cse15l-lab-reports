@@ -48,9 +48,9 @@ This set of commands goes into the terminal history of when I first ran the test
 
 ![Step 6](step6)
 
-`git <space> add <space> ListExamples.java`
+`git <space> add <space> ListExamples.java <enter>`
 
-`git <space> commit <space> -m <space> "success"`
+`git <space> commit <space> -m <space> "success" <enter>`
 
 `git <space> push`
 
