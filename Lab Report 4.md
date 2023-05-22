@@ -52,7 +52,7 @@ This set of commands goes into the terminal history of when I first ran the test
 
 `git <space> commit <space> -m <space> "success" <enter>`
 
-`git <space> push`
+`git <space> push <space>`
 
 The first command adds ListExamples into a list of files that will be committed. Then the next command actual commits the changes. The last command then pushes the changes onto the git hub account.
 
