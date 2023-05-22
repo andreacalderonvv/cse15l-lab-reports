@@ -40,9 +40,7 @@ The first set of commands runs vim and then when vim opened up, my cursor was al
 
 pic here
 
-```
-<up> <up> <up> <enter>
-```
+`<up> <up> <up> <enter>`
 
 This set of commands goes into the terminal history of when I first ran the test.
 
