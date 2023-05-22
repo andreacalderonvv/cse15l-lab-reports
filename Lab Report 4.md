@@ -22,7 +22,7 @@ These commands clone the lab7 repository.
 
 `cd <space> lab7 <enter>`
 
-`bash test.sh <enter>`
+`bash <space>  test.sh <enter>`
 
 These commands change into the lab7 directory and run the test.sh tests.
 
@@ -30,7 +30,7 @@ These commands change into the lab7 directory and run the test.sh tests.
 
 ![Step 4](step4)
 
-vim ListExamples.java <enter>
+vim <space> ListExamples.java <enter>
 
 `x i 2 <esc> :wq <enter>`
 
@@ -48,11 +48,11 @@ This set of commands goes into the terminal history of when I first ran the test
 
 ![Step 6](step6)
 
-`git add ListExamples.java`
+`git<space>add<space>ListExamples.java`
 
-`git commit -m "success"`
+`git <space> commit <space> -m <space> "success"`
 
-`git push`
+`git <space> push`
 
 The first command adds ListExamples into a list of files that will be committed. Then the next command actual commits the changes. The last command then pushes the changes onto the git hub account.
 
