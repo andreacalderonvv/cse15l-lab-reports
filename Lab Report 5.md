@@ -26,24 +26,22 @@ I expected this file to be able to compile and then run the tests. This is an im
 
 The current command I am running that produces this error is:
 
-```
-bash grade.sh
-```
+`bash grade.sh`
 
 I ran that command so that I can run the bash file so the test cases on TestBug.java compile, I also checked that the file exists. I am not sure what else to do. Can I get some guidance?
 
 ## TA Response
 ---
 
-Hello, since you have confirmed that the file exists, why don't you try checking if you are in the same directory as the file you want to compile? Try an ls or pwd command to check your location. Add a command to change directories in your bash file if needed. :)
+Hello, since you have confirmed that the file exists, why don't you try checking if you are in the same directory as the file you want to compile? Try an `ls` or `pwd` command to check your location. Add a command to change directories in your bash file if needed. :)
 
 ## What the Student Got:
 
 ![Image](goodOutput)
 
-The bug was that the the student was not in the proper directory when trying to compile through the bash file. Though the file existed, it did not exist in the directory the bash file was trying to compile in.
+The bug was that the student was not in the proper directory when trying to compile through the bash file. Though the file existed, it did not exist in the directory the bash file was trying to compile in.
 
 ## Reflection
 ---
 
-In the second quarter I really enjoyed running bash scripts and learning the syntax of it. It made me feel grateful about coding in java compared to bash. I do find the bash scripts useful and convenient. Before this class I never knew they existed.
+In the second quarter I really enjoyed running bash scripts and learning the syntax of it. It made me feel grateful about coding in java compared to bash. I do find the bash scripts useful and convenient. Before this class I never knew they existed. I will definitely be implementing these in my future projects.
