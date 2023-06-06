@@ -11,13 +11,11 @@ I am on windows on Visual Studio Code using terminal commands.
 **Detail the sympton you're seeing. Be specific; include both what you're seeing and what you expect to see instead. Screenshots are great, copy pasted terminal output is also great. Avoid saying 
 "it doesn't work".**
 
-The symptom I am seeing is that the terminal gives me an error that says:
+The symptom I am seeing is that my bash file keeps going to the else and prints:
 
-error: file not found: TestBug.java
-Usage: javac <options> <source files>
-use --help for a list of possible options
+File not found.
 
-I expected this to compile so then I can actually run the tests. This is an image of the error.
+I expected this file to be able to compile and then run the tests. This is an image of the wrong output.
 
   
 pic here
@@ -29,21 +27,21 @@ pic here
 The current command I am running that produces this error is:
 
 ```
-javac -cp ".;..\libs\junit-4.13.2.jar;..\libs\hamcrest-2.2.jar" TestBug.java
+bash grade.sh
 ```
 
-I ran that command so that I can compile the test cases on TestBug.java, I also checked that the file exists. I am not sure what else to do. Can I get some guidance?
+I ran that command so that I can run the bash file so the test cases on TestBug.java compile, I also checked that the file exists. I am not sure what else to do. Can I get some guidance?
 
 ## TA Response
 ---
 
-Hello, since you have confirmed that the file exists, why don't you try checking if you are in the same directory as the file you want to compile? Try an ls or pwd command to check your location. cd if needed. :)
+Hello, since you have confirmed that the file exists, why don't you try checking if you are in the same directory as the file you want to compile? Try an ls or pwd command to check your location. Add a command to change directories in your bash file if needed. :)
 
 ## What the Student Got:
 
 pic here
 
-The bug was that the the student was not in the proper directory. Though the file existed, it did not exist in the directory the student was in.
+The bug was that the the student was not in the proper directory when trying to compile through the bash file. Though the file existed, it did not exist in the directory the bash file was trying to compile in.
 
 ## Reflection
 ---
