@@ -18,7 +18,7 @@ File not found.
 I expected this file to be able to compile and then run the tests. This is an image of the wrong output.
 
   
-pic here
+![Image](buggy)
   
 
 **Detail the failure-inducing input and context. that might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran.
@@ -39,7 +39,7 @@ Hello, since you have confirmed that the file exists, why don't you try checking
 
 ## What the Student Got:
 
-pic here
+![Image](goodOutput)
 
 The bug was that the the student was not in the proper directory when trying to compile through the bash file. Though the file existed, it did not exist in the directory the bash file was trying to compile in.
 
