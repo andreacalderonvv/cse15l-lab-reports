@@ -19,11 +19,9 @@ use --help for a list of possible options
 
 I expected this to compile so then I can actually run the tests. This is an image of the error.
 
+  
 pic here
   
-  
-I ran that command to that I can run the test cases on TestBug.java, I already used the cd command to cd into the starter folder.
-
 
 **Detail the failure-inducing input and context. that might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran.
  Do your best to provide as much context as you can.**
@@ -34,4 +32,16 @@ The current command I am running that produces this error is:
 javac -cp ".;..\libs\junit-4.13.2.jar;..\libs\hamcrest-2.2.jar" TestBug.java
 ```
 
-I ran that command to that I can compile the test cases on TestBug.java, I already used the cd command to cd into the starter folder, I am not sure what else to do. Can I get some guidance?
+I ran that command so that I can compile the test cases on TestBug.java, I also checked that the file exists. I am not sure what else to do. Can I get some guidance?
+
+## TA Response
+---
+
+Hello, since you have confirmed that the file exists, why don't you try checking if you are in the same directory as the file you want to compile? Try an ls or pwd command to check your location. cd if needed. :)
+
+## What the Student Got:
+
+pic here
+
+The bug was that the the student was not in the proper directory. Though the file existed, it did not exist in the directory the student was in.
+ 
