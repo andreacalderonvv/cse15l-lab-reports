@@ -44,4 +44,8 @@ Hello, since you have confirmed that the file exists, why don't you try checking
 pic here
 
 The bug was that the the student was not in the proper directory. Though the file existed, it did not exist in the directory the student was in.
- 
+
+## Reflection
+---
+
+In the second quarter I really enjoyed running bash scripts and learning the syntax of it. It made me feel grateful about coding in java compared to bash. I do find the bash scripts useful and convenient. Before this class I never knew they existed.
