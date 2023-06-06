@@ -11,11 +11,11 @@ I am on windows on Visual Studio Code using terminal commands.
 **Detail the sympton you're seeing. Be specific; include both what you're seeing and what you expect to see instead. Screenshots are great, copy pasted terminal output is also great. Avoid saying 
 "it doesn't work".**
 
-The symptom I am seeing is that my bash file keeps going to the else and prints:
+The symptom I am seeing is that my bash file keeps going to the else of the if statement and prints:
 
 File not found.
 
-I expected this file to be able to compile and then run the tests. This is an image of the wrong output.
+I expected this file print "File found and will compile." and to be able to compile and then run the tests. This is an image of the wrong output.
 
   
 ![Image](buggy)
